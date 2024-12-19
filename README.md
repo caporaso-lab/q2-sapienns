@@ -2,7 +2,7 @@
 
 q2-sapienns is a set of tools that can be used for preparing [BioBakery3](https://doi.org/10.7554/eLife.65088) data for use in [QIIME 2](https://qiime2.org). As QIIME 2 expands support for metagenomics data analysis, this will provide a framework for working with processed BioBakery3 data, and for comparing other methods to BioBakery3.
 
-**q2-sapienns is now included in the alpha QIIME 2 shotgun distribution, and this is the best way to install and use it.**
+**q2-sapienns is now included in the alpha QIIME 2 metagenome distribution, and this is the best way to install and use it.**
 
 Basic usage examples are provided below.
 
@@ -12,9 +12,9 @@ Please feel free to post questions to the [QIIME 2 Forum](https://forum.qiime2.o
 
 ## Installation
 
-### QIIME 2 Shotgun Distribution
+### QIIME 2 Metagenome Distribution
 
-q2-sapienns is included in the QIIME 2 shotgun distribution. To find install instructions, see *Installing QIIME 2* at https://docs.qiime2.org.
+q2-sapienns is included in the QIIME 2 metagenome distribution. To find install instructions, see *Installing QIIME 2* at https://docs.qiime2.org.
 
 ### Install in other QIIME 2 environments (experts only!)
 
