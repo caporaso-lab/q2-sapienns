@@ -8,8 +8,10 @@
 
 # flake8: noqa
 
-from . import _version
-__version__ = _version.get_versions()['version']
+try:
+    from ._version import __version__
+except ModuleNotFoundError:
+    __version__ = '0.0.0+notfound'
 
 from .plugin_setup import (
     HumannGeneFamilyDirectoryFormat, HumannGeneFamilyFormat,
